@@ -20,10 +20,8 @@ func GoodMorningWorld() string {
 // GoodEveningWorld is a function that returns a string containing "good evening world".
 func GoodEveningWorld() string {
 	// Sonar non-compliant code:
-	if x == 0 {
-		GoodMorningWorld()
-	} else if x == 1 {
-		GoodMorningWorld()
-	}
+
+	return 1 // Noncompliant because non-reachable code below:
+
 	return "good evening world"
 }
