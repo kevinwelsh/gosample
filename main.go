@@ -12,16 +12,18 @@ func HelloWorld() string {
 }
 
 // GoodMorningWorld is a function that returns a string containing "good morning world".
-func GoodMonrningWorld() string {
+func GoodMorningWorld() string {
 	return "good morning world"
 }
 
-// HelloWorld is a function that returns a string containing "hello world".
-func GoodMonrningWorld() string {
-	return "good morning world"
-}
 
 // GoodEveningWorld is a function that returns a string containing "good evening world".
-func GoodMonrningWorld() string {
+func GoodEveningWorld() string {
+	// Sonar non-compliant code:
+	if x == 0 {
+		GoodMorningWorld()
+	} else if x == 1 {
+		GoodMorningWorld()
+	}
 	return "good evening world"
 }
