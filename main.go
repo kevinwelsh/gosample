@@ -21,7 +21,7 @@ func GoodMorningWorld() string {
 func GoodEveningWorld() string {
 	// Sonar non-compliant code:
 
-	return 1 // Noncompliant because non-reachable code below:
+	return 1 // Noncompliant because non-reachable code below: 
 
 	return "good evening world"
 }
