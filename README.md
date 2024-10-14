@@ -1,1 +1,2 @@
-# gosample
+# Harness CI Sample for go.
+       
